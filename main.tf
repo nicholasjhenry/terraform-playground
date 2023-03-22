@@ -1,4 +1,5 @@
 provider "aws" {
+  profile = "cli"
   region = "us-west-2"
 }
 
